@@ -2,5 +2,5 @@
 
 mkdir build
 cd build
-cmake -DCMAKE_INSTALL_PREFIX=/usr/bin ..
+cmake -DCMAKE_INSTALL_PREFIX=/usr/local ..
 make
