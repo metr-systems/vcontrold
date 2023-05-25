@@ -22,6 +22,44 @@
         <debug>n</debug>
       </logging>
       <device ID="20CB"/>
+      <device ID="2054"/>
+      <device ID="2053"/>
+      <device ID="20B4"/>
+      <device ID="20AC"/>
+      <device ID="20AA"/>
+      <device ID="20AB"/>
+      <device ID="20AD"/>
+      <device ID="20A0"/>
+      <device ID="2091"/>
+      <device ID="2092"/>
+      <device ID="20A4"/>
+      <device ID="2094"/>
+      <device ID="2098"/>
+      <device ID="20A5"/>
+      <device ID="209C"/>
+      <device ID="20B8"/>
+      <device ID="20B9"/>
+      <device ID="20BA"/>
+      <device ID="20C0"/>
+      <device ID="20C1"/>
+      <device ID="20C2"/>
+      <device ID="20C4"/>
+      <device ID="20C5"/>
+      <device ID="20C6"/>
+      <device ID="20C7"/>
+      <device ID="20C8"/>
+      <device ID="20C9"/>
+      <device ID="20CA"/>
+      <device ID="20CB"/>
+      <device ID="2047"/>
+      <device ID="2046"/>
+      <device ID="2048"/>
+      <device ID="204B"/>
+      <device ID="2049"/>
+      <device ID="2032"/>
+      <device ID="2033"/>
+      <device ID="209F"/>
+      <device ID="204D"/>
     </config>
   </unix>
   <units>
@@ -228,6 +266,7 @@
       <enum bytes="20 98" text="V200KW2 ID=2098 Protokoll:KW"/>
       <enum bytes="20 CB 03 4A 00 00 01 0A" text="VScotHO1 ID=20CB Protokoll:KW,300"/>
       <enum bytes="20 94" text="V200KW1 ID=2094 Protokoll:KW"/>
+      <enum bytes="20 A0 00 07 00 00 01 24" text="V100GC1 ID=20A0 Protokoll:KW2"/>
       <enum text="UNKNOWN"/>
     </unit>
     <unit name="Sachnummer">
