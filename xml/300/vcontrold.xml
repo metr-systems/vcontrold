@@ -9,7 +9,7 @@
       <username>nobody</username>
       <groupname>dialout</groupname>
       <serial>
-        <tty>/dev/ttySAC1</tty>
+        <tty>/dev/optolink</tty>
       </serial>
       <net>
         <!-- if no address is given, daemon will listen on all found interfaces -->
