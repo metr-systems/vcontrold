@@ -22,12 +22,12 @@
     <device ID="2098" name="V200KW2" protocol="KW2"/>
     <device ID="20A5" name="V300GW2" protocol="KW2"/>
     <device ID="209C" name="V300KW3" protocol="KW2"/>
-    <device ID="20B8" name="V333MW1" protocol="P300, KW2"/>
-    <device ID="20B9" name="V333MW1S" protocol="P300, KW2"/>
-    <device ID="20BA" name="V333MW2" protocol="P300, KW2"/>
-    <device ID="20C0" name="VDensHC1" protocol="P300, KW2"/>
-    <device ID="20C1" name="VDensHC2" protocol="P300, KW2"/>
-    <device ID="20C2" name="VDensHO1" protocol="P300, KW2"/>
+    <device ID="20B8" name="V333MW1" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
+    <device ID="20B9" name="V333MW1S" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
+    <device ID="20BA" name="V333MW2" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
+    <device ID="20C0" name="VDensHC1" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
+    <device ID="20C1" name="VDensHC2" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
+    <device ID="20C2" name="VDensHO1" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
     <device ID="20C3" name="VPendHC1" protocol="P300"/> <!-- replaced 300,KW by P300 like in 20CB -->
     <device ID="20C4" name="VPendHC2" protocol="P300"/>
     <device ID="20C5" name="VPendHO1" protocol="P300"/>
@@ -39,13 +39,14 @@
     <device ID="2047" name="VBC700_AW" protocol="P300"/>
     <device ID="2046" name="VBC700_BW_WW" protocol="P300"/><!-- replaced 300 by P300  -->
     <device ID="2048" name="VBC702-BW" protocol="P300"/> <!-- two with same ID-->
-    <device ID="204B" name="CU401B_G" protocol="P300, KW2"/> <!-- this list is more complete: https://github.com/philippoo66/ViessData21/blob/master/DataPoints.txt#L11-->
+    <device ID="204B" name="CU401B_G" protocol="P300"/> <!-- 2 protocols permitted, the other one is KW2 -->
+    <!-- this list is more complete: https://github.com/philippoo66/ViessData21/blob/master/DataPoints.txt#L11-->
     <device ID="2049" name="VBC702-AW/VT200WO1AB" protocol="P300"/>
     <device ID="2032" name="VBC550S" protocol="P300"/> <!-- protocol not mentioned, but 300 seems more probable-->
     <device ID="2033" name="VBC550P" protocol="P300"/>
     <device ID="209F" name="V200KO2B" protocol="P300"/> <!-- two with same ID-->
     <device ID="209F" name="V200KO2B" protocol="P300"/>
-    <device ID="204D" name="CU401B_S" protocol="P300,KW2"/>
+    <device ID="204D" name="CU401B_S" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
 
   </devices>
   <commands>
