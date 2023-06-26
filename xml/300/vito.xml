@@ -465,6 +465,11 @@
       <unit>UT</unit>
       <description>Ermittle die Vorlauftemperatur M1 in Grad C</description>
       <device ID="2053"/>
+      <device ID="20A5">
+        <addr>2900</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
       <device ID="20CB">
         <addr>2900</addr>
         <unit>UT</unit>
