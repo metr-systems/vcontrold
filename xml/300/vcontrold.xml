@@ -267,6 +267,7 @@
       <enum bytes="20 CB 03 4A 00 00 01 0A" text="VScotHO1 ID=20CB Protokoll:KW,300"/>
       <enum bytes="20 94" text="V200KW1 ID=2094 Protokoll:KW"/>
       <enum bytes="20 A0 00 07 00 00 01 24" text="V100GC1 ID=20A0 Protokoll:KW2"/>
+      <enum bytes="20 A6 01 03 FF 00 01 14" text="V300GW2 ID=20A5 Protokoll:KW2"/>
       <enum text="UNKNOWN"/>
     </unit>
     <unit name="Sachnummer">
