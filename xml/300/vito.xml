@@ -483,6 +483,12 @@
         <len>2</len>
       </device>
     </command>
+    <command name="getTempVListM3" protocmd="getaddr">
+      <description>Ermittle die Vorlauftemperatur M3 in Grad C</description>
+      <addr>4900</addr>
+      <unit>UT</unit>
+      <len>2</len>
+    </command>
     <command name="getTempVLsollM1" protocmd="getaddr">
       <addr>2544</addr>
       <len>2</len>
