@@ -1172,6 +1172,11 @@
         <len>1</len>
         <unit>RT</unit>
       </device>
+      <device ID="204D">
+        <addr>0A82</addr>
+        <len>1</len>
+        <unit>RT</unit>
+      </device>
     </command>
     <command name="getError0" protocmd="getaddr">
       <addr>7507</addr>
