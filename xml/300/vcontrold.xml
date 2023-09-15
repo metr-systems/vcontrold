@@ -165,7 +165,7 @@
       <!-- At least for device 20CB the heating circuit pump returns
            status 03 when it's on and the heating runs in in night mode -->
       <enum bytes='03' text='2'/>
-      <enum text="NOT OK"/>
+      <enum text="-1"/>
     </unit>
     <unit name="BetriebsArt">
       <abbrev>BA</abbrev>
