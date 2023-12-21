@@ -47,6 +47,7 @@
     <device ID="209F" name="V200KO2B" protocol="P300"/> <!-- two with same ID-->
     <device ID="209F" name="V200KO2B" protocol="P300"/>
     <device ID="204D" name="CU401B_S" protocol="KW2"/>  
+    <device ID="20A6"  protocol="KW2"/>  
 
   </devices>
   <commands>
@@ -478,6 +479,11 @@
         <len>1</len>
       </device>
       <device ID="20CB">
+        <addr>3900</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
+      <device ID="20A6">
         <addr>3900</addr>
         <unit>UT</unit>
         <len>2</len>
