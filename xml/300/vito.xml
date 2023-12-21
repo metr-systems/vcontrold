@@ -478,11 +478,6 @@
         <unit>UT1</unit>
         <len>1</len>
       </device>
-      <device ID="20CB">
-        <addr>3900</addr>
-        <unit>UT</unit>
-        <len>2</len>
-      </device>
       <device ID="20A6">
         <addr>3900</addr>
         <unit>UT</unit>
