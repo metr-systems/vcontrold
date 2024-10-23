@@ -9,6 +9,7 @@
     <device ID="20CB" name="VScotHO1" protocol="P300"/>
     <device ID="2094" name="V200KW1" protocol="KW2"/>
     <device ID="20A0" name="V100GC1" protocol="KW2"/>
+    <device ID="20AE" name="V100GC2" protocol="KW2"/>
     <device ID="2054" name="GWG_BT2" protocol="GWG"/>
     <device ID="20B4" name="V050HK1M" protocol="KW2"/>
     <device ID="20AC" name="V050HK1S" protocol="KW2"/>
@@ -25,6 +26,8 @@
     <device ID="20B8" name="V333MW1" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
     <device ID="20B9" name="V333MW1S" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
     <device ID="20BA" name="V333MW2" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
+    <device ID="20BB" name="V333MW3" protocol="KW2"/>
+    <device ID="20BC" name="V333MW4" protocol="KW2"/>
     <device ID="20C0" name="VDensHC1" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
     <device ID="20C1" name="VDensHC2" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
     <device ID="20C2" name="VDensHO1" protocol="P300"/><!-- 2 protocols permitted, the other one is KW2 -->
@@ -478,6 +481,13 @@
         <unit>UT1</unit>
         <len>1</len>
       </device>
+
+	  <device ID="20CB">
+        <addr>3900</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
+
       <device ID="20A6">
         <addr>3900</addr>
         <unit>UT</unit>
@@ -1163,7 +1173,7 @@
     </command>
     <!-- STOERUNG -->
     <command name="getStatusStoerung" protocmd="getaddr">
-      <addr>7579</addr>
+      <addr>757A</addr>
       <len>1</len>
       <unit>RT</unit>
       <description>Status Sammelstoerung</description>
@@ -1173,6 +1183,13 @@
         <len>1</len>
         <unit>RT</unit>
       </device>
+	  <device ID="2098">
+        <addr>7579</addr>
+        <len>1</len>
+        <unit>RT</unit>
+      </device>
+
+	<!-- ATTENTION: 204D perhaps has different addresses ?! 7579 / 757A / 0A82 -->
       <device ID="204D">
         <addr>0A82</addr>
         <len>1</len>
