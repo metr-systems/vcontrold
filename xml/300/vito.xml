@@ -49,9 +49,8 @@
     <device ID="2033" name="VBC550P" protocol="P300"/>
     <device ID="209F" name="V200KO2B" protocol="P300"/> <!-- two with same ID-->
     <device ID="209F" name="V200KO2B" protocol="P300"/>
-    <device ID="204D" name="CU401B_S" protocol="KW2"/>  
-    <device ID="20A6"  protocol="KW2"/>  
-
+    <device ID="204D" name="CU401B_S" protocol="KW2"/>
+    <device ID="20A6"  protocol="KW2"/>
   </devices>
   <commands>
     <!-- Gerätedaten -->
