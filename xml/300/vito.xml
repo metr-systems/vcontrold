@@ -214,6 +214,26 @@
         <unit>UT</unit>
         <len>2</len>
       </device>
+	  <device ID="20A6">
+        <addr>555A</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
+	  <device ID="20A5">
+        <addr>555A</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
+	  <device ID="20A4">
+        <addr>555A</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
+	  <device ID="20C2">
+        <addr>555A</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
     </command>
     <command name="getVolStrom" protocmd="getaddr">
       <addr>0C24</addr>
@@ -492,6 +512,21 @@
         <unit>UT</unit>
         <len>2</len>
       </device>
+	  <device ID="20A5">
+        <addr>3900</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
+	  <device ID="20B9">
+        <addr>3900</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
+	  <device ID="20C2">
+        <addr>3900</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
     </command>
     <command name="getTempVListM3" protocmd="getaddr">
       <description>Ermittle die Vorlauftemperatur M3 in Grad C</description>
@@ -519,6 +554,11 @@
         <addr>63</addr>
         <unit>UT1</unit>
         <len>1</len>
+      </device>
+	  <device ID="2098">
+        <addr>3500</addr>
+        <unit>UT</unit>
+        <len>2</len>
       </device>
     </command>
     <command name="getTempVLsollM3" protocmd="getaddr">
