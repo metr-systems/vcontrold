@@ -234,6 +234,16 @@
         <unit>UT</unit>
         <len>2</len>
       </device>
+      <device ID="209F">
+        <addr>555A</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
+      <device ID="20B8">
+        <addr>555A</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
     </command>
     <command name="getVolStrom" protocmd="getaddr">
       <addr>0C24</addr>
@@ -523,6 +533,21 @@
         <len>2</len>
       </device>
 	  <device ID="20C2">
+        <addr>3900</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
+      <device ID="20AB">
+        <addr>3900</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
+      <device ID="209F">
+        <addr>3900</addr>
+        <unit>UT</unit>
+        <len>2</len>
+      </device>
+      <device ID="20B8">
         <addr>3900</addr>
         <unit>UT</unit>
         <len>2</len>
