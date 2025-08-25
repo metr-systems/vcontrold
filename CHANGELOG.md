@@ -12,6 +12,12 @@ in text terminals.
 ### Changed
 ### Removed
 
+## VERSION 2025-08-25
+### Added
+### Changed
+* vito.xml updates [issue: 1817](https://github.com/metr-systems/operations/issues/1817)
+### Removed
+
 ## VERSION 2025-07-14
 ### Added
 ### Changed
